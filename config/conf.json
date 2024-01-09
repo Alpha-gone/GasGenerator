@@ -1,0 +1,20 @@
+{
+  "generateInterval": 120,
+  "gasList" : ["Argon", "LiquidOxygen", "LiquidNitrogen"],
+  "database": {
+    "enable": true,
+    "host": "192.168.0.66",
+    "port": "30006",
+    "userName": "root",
+    "password": "12341234",
+    "database": "gas_monitoring"
+  },
+  "mqtt": {
+    "enable": true,
+    "host": "192.168.0.66",
+    "port": 1883,
+    "keepAlive": 121,
+    "topicPrefix": "apples/gas",
+    "publisherName": "apples-demo"
+  }
+}
